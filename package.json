@@ -4,7 +4,7 @@
   "description": "simple nodejs-auth supporting ldap mysql and mongodb",
   "main": "auth.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
@@ -14,10 +14,15 @@
     "auth",
     "login"
   ],
-  "author": "Maxbit89 <maxbit89@gmail.com> (http://about:blank)",
+  "author": "Maxbit89 <maxbit89@gmail.com> (https://github.com/maxbit89)",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/maxbit89/nodejs-auth/issues"
   },
-  "homepage": "https://github.com/maxbit89/nodejs-auth#readme"
+  "homepage": "https://github.com/maxbit89/nodejs-auth#readme",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "nodejs-auth-validator-simple": "git+https://github.com/maxbit89/nodejs-auth-validator-simple.git",
+    "nodejs-maxbit89-testutils": "git+https://github.com/maxbit89/nodejs-maxbit89-testutils.git"
+  }
 }
