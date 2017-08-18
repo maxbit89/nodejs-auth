@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-auth",
+  "version": "1.0.0",
+  "description": "simple nodejs-auth supporting ldap mysql and mongodb",
+  "main": "auth.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxbit89/nodejs-auth.git"
+  },
+  "keywords": [
+    "auth",
+    "login"
+  ],
+  "author": "Maxbit89 <maxbit89@gmail.com> (http://about:blank)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/maxbit89/nodejs-auth/issues"
+  },
+  "homepage": "https://github.com/maxbit89/nodejs-auth#readme"
+}
